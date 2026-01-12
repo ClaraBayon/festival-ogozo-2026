@@ -1,4 +1,4 @@
-const concierto = new Date ("2026-06-11T21:00:00"); // cambia a túa data/hora
+const concierto = new Date ("2026-07-11T21:00:00"); // cambia a túa data/hora
 const days = document.getElementById("dias");
 const hours = document.getElementById("horas");
 const minutes = document.getElementById("minutos");
@@ -39,3 +39,6 @@ const id = setInterval(actualizarContaAtras, 1000); // logo cada segundo
 // Modal
 const modal = document.getElementById("modal");
 
+function abrirModal() {
+    modal.classList.toggle("show");
+}
