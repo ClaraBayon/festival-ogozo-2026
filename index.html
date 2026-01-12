@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="gl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gozo fes8val 2025</title>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__div">
+        <img
+          class="header__logo"
+          src="./assets/oGozo-logo.png"
+          alt="Logo de Gozo"
+        />
+      </div>
+      <div onclick="abrirModal()" class="btn__campana">
+        <button id="submit" class="btn__avisa">
+          <img
+            class="img__campana"
+            src="./assets/campana_icon.svg"
+            alt="Icono dunha campana"
+          />
+          Avísame
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__div">
+        <div class="div__img">
+          <img
+            class="img__circle"
+            src="./assets/circleElement.svg"
+            alt="Icono de círculos"
+          />
+        </div>
+        <h1 class="letter">Próximamente</h1>
+        <p class="letter__p">CICLO DE CONCERTOS INTERNACIONAIS EN GALICIA</p>
+        <button class="btn__mercar">MERCAR ENTRADA</button>
+
+        <div class="countdown">
+          <div class="countdown__box">
+            <h3 id="dias" class="countdown__h3">14</h3>
+            <p class="countdown__p">Días</p>
+          </div>
+          <div class="countdown__separator">
+            <img src="./assets/separator.svg" alt="separador" />
+          </div>
+
+          <div class="countdown__box">
+            <h3 id="horas" class="countdown__h3">14</h3>
+            <p class="countdown__p">Horas</p>
+          </div>
+          <div class="countdown__separator">
+            <img src="./assets/separator.svg" alt="separador" />
+          </div>
+
+          <div class="countdown__box">
+            <h3 id="minutos" class="countdown__h3">14</h3>
+            <p class="countdown__p">Minutos</p>
+          </div>
+          <div class="countdown__separator">
+            <img src="./assets/separator.svg" alt="separador" />
+          </div>
+
+          <div class="countdown__box">
+            <h3 id="segundos" class="countdown__h3">14</h3>
+            <p class="countdown__p">Segundos</p>
+          </div>
+        </div>
+      </div>
+      <div class="poster">
+        <img
+          class="img__poster"
+          src="./assets/poster_ogozo2026.png"
+          alt="Poster do festival"
+        />
+      </div>
+    </main>
+    <footer class="footer">
+      <p class="footer__p">Copyright 2023 © LIVE NATION ESPAÑA, S.A.U.</p>
+      <div class="footer__div">
+        <img
+          class="footer__img"
+          src="./assets/yt_icon.svg"
+          alt="Icono Youtube"
+        />
+        <img
+          class="footer__img"
+          src="./assets/fb_icon.svg"
+          alt="Icono de Facebook"
+        />
+        <img
+          class="footer__img"
+          src="./assets/ig_icon.svg"
+          alt="Icono de Instagram"
+        />
+      </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal">
+      <form action="Exercicio80/contact.php" method="post">
+        <div class="modal__newsletter">
+          <input
+            class="modal__input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Introduce tu email"
+          />
+          <button class="btn__modal" type="submit">
+            <img
+              class="img__campana"
+              src="./assets/campana_icon.svg"
+              alt="icono dunha campana"
+            />
+            Avísame
+          </button>
+        </div>
+        <p class="input__p">
+          Ao suscribirte, aceptas as nosas <span>políticas de privacidade</span>
+        </p>
+      </form>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
